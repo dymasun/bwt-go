@@ -13,7 +13,6 @@ type SigningMethodRSA struct {
 	Hash crypto.Hash
 }
 
-// Specific instances for RS256 and company
 var (
 	SigningMethodRS256 *SigningMethodRSA
 	SigningMethodRS384 *SigningMethodRSA
