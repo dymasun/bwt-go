@@ -1,4 +1,4 @@
-package jwt
+package bwt
 
 import (
 	"crypto/ecdsa"
